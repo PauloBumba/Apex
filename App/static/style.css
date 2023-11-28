@@ -1,0 +1,73 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo da barra de navegação */
+nav {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para botões */
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para a mensagem de sucesso */
+#cadastroRealizadoMessage {
+    color: #27ae60;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+    margin-top: 10px;
+}
+
+/* Adicione outros estilos conforme necessário */
