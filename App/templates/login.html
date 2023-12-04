@@ -8,19 +8,19 @@
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Gerenciamento de Jogos<img src="static/image/juvs.jpg" alt="Paulo Bumba" width="50" height="20"></h1>
+        <h1>Bem-vindo ao Gerenciamento de Jogos<img src="static/image/juvs.jpg" alt="Paulo Bumba" width="50" height="200"></h1>
     </header>
-    <h2>Registro</h2>
-    <form method="GET" action="{{ url_for('validação') }}">
+    <h2>Login</h2>
+    <form method="GET" action="{{ url_for('autenticar') }}">
         <label for="email">E-mail:</label>
-        <input type="text" name="email" required><br>
+        <input type="text" name="usuario" required><br>
 
-        <label for="cpf">CPf:</label>
-        <input type="cpf" name="senha" required><br>
+        <label for="cpf">CPF:</label>
+        <input type="password" name="senha" required><br>
 
         <input type="submit" value="Entrar">
     </form>
-    <p>Já tem uma conta? <a href="{{ url_for('login') }}">Faça o login aqui</a>.</p>
+    <p>Não  tem uma conta? <a href="{{ url_for('Registro') }}">Faça o registro aqui</a>.</p>
     <footer>
         <p>&copy; 2023 Gerenciamento de Jogos</p>
     </footer>
